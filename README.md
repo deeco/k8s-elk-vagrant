@@ -18,4 +18,4 @@ This will do the following
 
 - vagrant up to bring up k8s clusters with number of nodes, to decrease or increase node amounts, please update the N Value in the VagrantFile https://github.com/deeco/k8s-elk-vagrant/blob/3197f44f4a7c9b711de00acfaf830c9aea889a87/VagrantFile#L3
 - helm install each component and service of elk stack , test apps and trafeik. 
-- * trafiek can be updated or run separetly using the setup_traefik shell script also https://github.com/deeco/k8s-elk-vagrant/blob/master/setup_traefik.sh
+* trafiek can be updated or run separetly using the setup_traefik shell script also https://github.com/deeco/k8s-elk-vagrant/blob/master/setup_traefik.sh
