@@ -12,7 +12,7 @@ Tools required to be installed for setup to run correctly.
 ## Installation and setup
 
 To run setup clone repo and browse to root directory and run setup.sh from command line, this should run the following.
-- run setup.sh from root directory
+- run setup.sh from root directory , this will take approx 10-45 mins depending internet speeds resources and if vagrant images need to be downloaded for virtualbox and docker requirements.
 
 This will do the following
 
@@ -26,6 +26,8 @@ This will do the following
   Each node is assigned IP from Vagrantfile and updated incremently 
 
 Access to elastic , kibana, apps and trafiek are all done directly via Nodeport as no lb in place or access to cluster IP as vagrant uses multiple eth interfaces.
+
+#### If any issues connecting to kibana to verify ,please use *"kubectl get all --all-namespaces"* to verify node where pod is hosted, this will be replaced with replica set of ingress controllers from traefik.
 
 * To access kibana directly and verify use url http://192.168.50.1:30601
 * To access and verify Elastic http://192.168.50.10:30920
