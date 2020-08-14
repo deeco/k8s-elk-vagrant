@@ -12,7 +12,7 @@ Tools required to be installed for setup to run correctly.
 ## Installation and setup
 
 To run setup clone repo and browse to root directory and run setup.sh from command line, this should run the following.
-- run setup.sh from root directory
+- run setup.sh from root directory , this will take approx 10-45 mins depending internet speeds resources and if vagrant images need to be downloaded for virtualbox and docker requirements.
 
 This will do the following
 
