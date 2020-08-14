@@ -23,6 +23,7 @@ This will do the following
 ## Access to Stack and apps
 
 - Calcio Network is configured with 192.168.50.0/16 subnet.
+  Each node is assigned IP from Vagrantfile and updated incremently 
 
 Access to elastic , kibana, apps and trafiek are all done directly via Nodeport as no lb in place or access to cluster IP as vagrant uses multiple eth interfaces.
 
