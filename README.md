@@ -27,6 +27,8 @@ This will do the following
 
 Access to elastic , kibana, apps and trafiek are all done directly via Nodeport as no lb in place or access to cluster IP as vagrant uses multiple eth interfaces.
 
+### If any issues connecting to kibana to verify ,please use kubectl get all --all-namespaces to verify node where pod is hosted, this will be replaced with replica set of ingress controllers from traefik.
+
 * To access kibana directly and verify use url http://192.168.50.1:30601
 * To access and verify Elastic http://192.168.50.10:30920
 * To access traefik http://192.168.50.11:30880/dashboard/#/
