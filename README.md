@@ -24,8 +24,13 @@ This will do the following
 
 Access to elastic , kibana, apps and trafiek are all done directly via Nodeport as no lb in place or access to cluster IP as vagrant uses multiple eth interfaces.
 
-* To access kibana use url 
-* To access and verify Elastic http://192.168.50.11:30601/
+* To access kibana directly and verify use url http://192.168.50.1:30601
+* To access and verify Elastic http://192.168.50.10:30920
+* To access traefik http://192.168.50.11:30880/dashboard/#/
+
+* To access app2 to verify status http://192.168.50.11:30080
+
+- there is also a windows vm not powered up than will be in private subnet to validate if required any internal connections or web addresse's
 
 ## Remove Environment
 
