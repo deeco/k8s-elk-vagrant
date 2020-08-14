@@ -22,8 +22,6 @@ spec:
             cpu: 100m
           limits:
             cpu: 1000m
-      nodeSelector:
-        nodename: node1
         env:
           - name: ELASTICSEARCH_URL
             value: http://elasticsearch:9200

@@ -10,4 +10,5 @@ kubectl apply -f traefik-deployment/traefik-secrets.yaml
 kubectl apply -f traefik-deployment/traefik-config.yaml
 kubectl apply -f traefik-deployment/traefik-dyn-config.yaml
 kubectl apply -f traefik-deployment/traefik-deployment.yaml
+kubectl apply -f traefik-deployment/traefik-service.yaml
 kubectl get all --all-namespaces

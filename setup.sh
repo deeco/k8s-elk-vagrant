@@ -1,7 +1,7 @@
 #!/bin/sh
 echo vagrant up and install elk into kubernetes cluster
 vagrant up
-export KUBECONFIG=~/elastic/kubevagrant/kubernetes-setup/kubevagrantconfig/k8s-master/home/vagrant/.kube/config
+export KUBECONFIG=$PWD/kubernetes-setup/kubevagrantconfig/k8s-master/home/vagrant/.kube/config
 kubectl patch nodes k8s-master -p '{"spec":{"taints":[]}}'
 kubectl label nodes k8s-node-1 nodename=node1
 kubectl label nodes k8s-node-2 nodename=node2
