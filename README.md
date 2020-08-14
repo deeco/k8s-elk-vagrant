@@ -1,2 +1,2 @@
-# k8s-elk-vagrant
-k8s-elk-vagrant
+# kubevagrant
+kuberenetes cluster with windows and artifactory installation
