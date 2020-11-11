@@ -1,5 +1,5 @@
 # k8s-elk-vagrant
-Kuberenetes cluster deployment using vagrant, ansible for elk stack and 2 apps with traefik , this will be used to auth kibana from frontend.
+Kuberenetes cluster deployment using Vagrant, Ansible for ELK stack and 2 apps with Traefik , this will be used to auth Kibana from frontend.
 
 ## Dependancies
 Tested and verfied on macbook pro , min RAM requirements 16GB and Quad Core processor, may be run with less but will require update to Vagrantfile to lower node requirements. elastic will not start without sufficient RAM available.
